@@ -1,0 +1,127 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ h1, h2, h3, h4, h5, h6{
+     padding: 0;
+     margin: 0;
+     text-transform: uppercase; 
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 58px; 
+}
+
+ul, li{
+     display: block;
+     padding: 0;
+     margin: 0;
+}
+.container{
+     width: 1170px;
+     margin: 0 auto;     
+}
+.header {
+     background: url('https://static.dezeen.com/uploads/2018/07/the-orb-bjarke-ingels-jakob-lange-crowdfunding-installation-burning-man_dezeen_hero.jpg') no-repeat center top / cover;
+     background-size:contain;
+     padding-bottom: 350px;
+}
+.logo{
+    width: 57px;
+    height: 67px;
+    margin-right: 140px;
+}
+.header a{
+     color: black;
+}
+.menu{
+     display: flex;
+     margin-top: 2px;
+}
+.menu li a{
+     text-transform: uppercase;
+     text-decoration: none;
+     font-size: 18px;
+     letter-spacing: 0.1em;
+}
+.menu li{
+     margin-right: 40px;
+}
+.tel{
+     font-size: 20px;
+     text-decoration: none;
+     margin-left: auto;
+     letter-spacing: 0.1em;
+}
+.nav{
+     display: flex;
+     align-items: center;
+     padding-top: 35px;
+     padding-bottom: 80px;
+}
+.offer{
+     text-transform: uppercase; 
+}
+.offer p{
+     font-size: 30px;
+     margin-bottom: -25px;
+}
+.offer h1{
+     font-size: 80px;
+     margin-bottom: 19px;
+     margin-top: -9px;
+     letter-spacing: 0.02em;
+}
+.btn{
+     display: block;
+     font-size: 17px;
+     text-align: center;
+     letter-spacing: 0.1em;
+     padding: 17px 47px;
+     border: 2px solid #6e3a3a;
+     border-radius: 25px;
+     text-decoration: none;
+     width: 238px;
+     margin-top: -35px;
+}
+
+section{
+        padding-top: 50px;
+}
+.desc-left{
+    width: 570px;
+}
+.desc-right{
+    width: 570px;
+}
+.description{
+    display: flex;
+     font-family: 'Open Sans';
+     justify-content: space-between;
+}
+.description p{
+         font-weight: 400px;
+         text-align: justify;
+         line-height: 1.67em;
+}
+
+.galery{
+       margin-top: 40px;
+       display: block;
+       text-align: center;     
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
